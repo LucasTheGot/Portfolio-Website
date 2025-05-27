@@ -18,7 +18,7 @@ const Hero = () => {
             className="mb-6"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-2">
-              Lucas Fassman
+               Lucas Fassman
             </h1>
             <div className="text-xl md:text-2xl text-primary-400 font-medium h-8">
               <TypeAnimation
@@ -43,7 +43,8 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Developer. Creator. Leader.
+            Combining technical depth with creativity and 
+            collaboration to build impactful software solutions.
           </motion.p>
 
           <motion.div

@@ -61,7 +61,7 @@ const About = () => {
                   <li>Game Development, OOP, Server-side API Integration</li>
                   <li>General Programming and scripting</li>
                   <li>Database Design and Normalization</li>
-                  <li>Currently Learning!</li>
+                  <li>Currently Learning</li>
                 </ul>
               </div>
             </div>
