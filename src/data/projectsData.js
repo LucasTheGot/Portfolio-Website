@@ -18,6 +18,6 @@ export const projectsData = [
     description: "A custom-built Minecraft minigame developed using the Minecraft Minigame Library, integrated with the Queue Game Manager.",
     repo: "https://gitfront.io/r/LucasTheGoat/Hw8RgrGuEzvw/Precision/",
     demo: null,
-    technologies: ["Java", "Minigame Plugin", "Minecraft Packets", "Library Integration"]
+    technologies: ["Java", "CraftBukkit API", "Game Development Framework", "Event-Driven Architecture", "Minecraft Packets"]
   }
 ]
