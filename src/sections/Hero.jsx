@@ -43,8 +43,8 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Combining technical depth with creativity and 
-            collaboration to build impactful software solutions.
+            Combining technical depth with creativity and collaboration <br /> 
+            to build impactful software solutions.
           </motion.p>
 
           <motion.div
