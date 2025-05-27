@@ -1,23 +1,23 @@
 export const projectsData = [
   {
     title: "Queue Game Manager",
-    description: "A comprehensive queue management system for handling game sessions and player queues efficiently.",
+    description: "A comprehensive Minecraft queue management system for handling player queue requests and Minecraft minigames efficiently.",
     repo: "https://gitfront.io/r/LucasTheGoat/kQ4XxvpQNAKY/Queue-Game-Manager/",
     demo: null,
-    technologies: ["Java", "Spring Boot", "RESTful API", "Queue Management"]
+    technologies: ["Java", "Velocity API", "Queue Management"]
   },
   {
     title: "Minecraft Minigame Library",
-    description: "A flexible and extensible library for creating Minecraft minigames with customizable features and mechanics.",
+    description: "A library for creating Minecraft minigames on the Goat Village Network, supporting simultaneous deployment of multiple minigames on a single server.",
     repo: "https://gitfront.io/r/LucasTheGoat/svxwdEz6xiCP/Minecraft-Minigame-Library/",
     demo: null,
-    technologies: ["Java", "Bukkit API", "Game Development", "Event Handling"]
+    technologies: ["Java", "CraftBukkit API", "Game Development Framework", "Event-Driven Architecture"]
   },
   {
     title: "Precision",
-    description: "A high-performance application focused on precision calculations and data processing with minimal resource usage.",
+    description: "A custom-built Minecraft minigame developed using the Minecraft Minigame Library, integrated with the Queue Game Manager.",
     repo: "https://gitfront.io/r/LucasTheGoat/Hw8RgrGuEzvw/Precision/",
     demo: null,
-    technologies: ["C", "Performance Optimization", "Data Processing"]
+    technologies: ["Java", "Minigame Plugin", "Minecraft Packets", "Library Integration"]
   }
 ]

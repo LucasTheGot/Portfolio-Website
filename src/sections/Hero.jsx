@@ -23,13 +23,11 @@ const Hero = () => {
             <div className="text-xl md:text-2xl text-primary-400 font-medium h-8">
               <TypeAnimation
                 sequence={[
-                  'Software Developer',
+                  'Software Developer.',
                   2000,
-                  'Java Specialist',
+                  'Musician',
                   2000,
-                  'Python Enthusiast',
-                  2000,
-                  'SQL & Database Expert',
+                  'Idea Enthusiast',
                   2000,
                 ]}
                 wrapper="span"
@@ -45,7 +43,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Building robust and efficient solutions from Colorado Springs
+            Developer. Creator. Leader.
           </motion.p>
 
           <motion.div
