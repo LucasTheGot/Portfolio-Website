@@ -63,7 +63,7 @@ const Projects = () => {
             {Array.from({ length: 13 }).map((_, i) => (
               <SwiperSlide key={i}>
                 <img
-                  src={`/images/image${i + 1}.jpg`}
+                  src={`/images/image${i + 1}.png`}
                   alt={`Screenshot ${i + 1}`}
                   className="w-full h-auto rounded-lg shadow-md object-cover"
                 />
