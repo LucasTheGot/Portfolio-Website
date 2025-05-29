@@ -2,6 +2,12 @@ import { motion } from 'framer-motion'
 import ProjectCard from '../components/ProjectCard'
 import { projectsData } from '../data/projectsData'
 
+// Import Swiper styles and components
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+
 const Projects = () => {
   return (
     <section id="projects" className="py-20 relative">
@@ -30,7 +36,7 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* YouTube video embed */}
+        {/* YouTube embed */}
         <div className="flex justify-center mt-12">
           <div className="w-full max-w-3xl aspect-video">
             <iframe
@@ -44,16 +50,26 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Image grid with 13 photos */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
-          {Array.from({ length: 13 }).map((_, i) => (
-            <img
-              key={i}
-              src={`/images/image${i + 1}.jpg`}
-              alt={`Screenshot ${i + 1}`}
-              className="w-full rounded-lg shadow-md"
-            />
-          ))}
+        {/* Image Carousel */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-semibold text-center mb-6">Photo Gallery</h3>
+          <Swiper
+            modules={[Navigation]}
+            navigation
+            spaceBetween={20}
+            slidesPerView={1}
+            className="w-full max-w-4xl mx-auto"
+          >
+            {Array.from({ length: 13 }).map((_, i) => (
+              <SwiperSlide key={i}>
+                <img
+                  src={`/images/image${i + 1}.jpg`}
+                  alt={`Screenshot ${i + 1}`}
+                  className="w-full h-auto rounded-lg shadow-md object-cover"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </section>
