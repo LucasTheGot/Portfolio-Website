@@ -29,6 +29,20 @@ const Projects = () => {
             />
           ))}
         </div>
+
+         {/* YouTube video embed below all projects */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-3xl aspect-video">
+            <iframe
+              className="w-full h-full rounded-lg shadow-lg"
+              src="https://www.youtube.com/watch?v=UCVMLj6zvOg&ab_channel=GoatVillage"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
   )
