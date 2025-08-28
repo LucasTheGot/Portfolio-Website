@@ -49,8 +49,8 @@ const About = () => {
               <div className="space-y-4">
                 <h4 className="text-primary-400 font-medium">Tech Stack</h4>
                 <ul className="space-y-2 text-gray-300">
-                  <li>Java</li>
                   <li>JavaScript</li>
+                  <li>Java</li>
                   <li>Python</li>
                   <li>SQL</li>
                   <li>C</li>
