@@ -24,7 +24,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-semibold text-white mb-4">
-              Software Developer from Colorado Springs
+              Software Developer based in the California Bay Area
             </h3>
             <p className="text-gray-400 mb-6">
               I’m a passionate software developer who loves building reliable and 
@@ -33,7 +33,7 @@ const About = () => {
             </p>
             <p className="text-gray-400">
               When I'm not coding, I'm composing music, enjoying a 
-              good book, or enjoying the beautiful Colorado outdoors.
+              good book, or enjoying the beautiful outdoors.
             </p>
           </motion.div>
 
@@ -54,16 +54,6 @@ const About = () => {
                   <li>Python</li>
                   <li>SQL</li>
                   <li>C</li>
-                </ul>
-              </div>
-              <div className="space-y-4">
-                <h4 className="text-primary-400 font-medium">Expertise</h4>
-                <ul className="space-y-2 text-gray-300">
-                  <li>Game Development, OOP, Server-side API Integration</li>
-                  <li>General Programming and scripting</li>
-                  <li>General Programming and scripting</li>
-                  <li>Database Design and Normalization</li>
-                  <li>Currently Learning</li>
                 </ul>
               </div>
             </div>
