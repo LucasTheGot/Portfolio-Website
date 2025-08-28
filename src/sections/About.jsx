@@ -50,6 +50,7 @@ const About = () => {
                 <h4 className="text-primary-400 font-medium">Tech Stack</h4>
                 <ul className="space-y-2 text-gray-300">
                   <li>Java</li>
+                  <li>JavaScript</li>
                   <li>Python</li>
                   <li>SQL</li>
                   <li>C</li>
@@ -59,6 +60,7 @@ const About = () => {
                 <h4 className="text-primary-400 font-medium">Expertise</h4>
                 <ul className="space-y-2 text-gray-300">
                   <li>Game Development, OOP, Server-side API Integration</li>
+                  <li>General Programming and scripting</li>
                   <li>General Programming and scripting</li>
                   <li>Database Design and Normalization</li>
                   <li>Currently Learning</li>
